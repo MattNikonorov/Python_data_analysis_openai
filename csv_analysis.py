@@ -55,7 +55,7 @@ for di in range(len(df)):
         apa3.append('No result')
 
 df = df.assign(Tone=apa1)
-df = df.assign(Main_lesson_point=apa2)
+df = df.assign(Main_lesson_or_point=apa2)
 df = df.assign(Clickbait_score=apa3)
 
 df.to_csv("data.csv", index=False)
